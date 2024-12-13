@@ -9,9 +9,9 @@
     },
     "toolchains": [
       {
-        "name": "llvm-clang",
-        "repo": "https://android.googlesource.com/toolchain/llvm-project",
-        "branch": "llvm-r450784",
+        "name": "google-clang",
+        "repo": "https://android.googlesource.com/platform//prebuilts/clang/host/linux-x86/",
+        "branch": "6fbdb94dfed101f9abadc52370ed135a4e523085",
         "binaryEnv": ["./bin"]
       }
     ],
@@ -20,8 +20,8 @@
       "ARCH": "arm64",
       "CC": "clang",
       "externalCommands": {
-        "CROSS_COMPILE": "proton-clang/bin/aarch64-linux-gnu-",
-        "CROSS_COMPILE_ARM32": "proton-clang/bin/arm-linux-gnueabi-",
+        "CROSS_COMPILE": "google-clang/bin/aarch64-linux-gnu-",
+        "CROSS_COMPILE_ARM32": "google-clang/bin/arm-linux-gnueabi-",
         "CLANG_TRIPLE": "aarch64-linux-gnu-"
       }
     },
