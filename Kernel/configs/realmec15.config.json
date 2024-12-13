@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "Xiaomi9KernelPoweredBySeparate",
-      "repo": "https://github.com/Separatee/AllinOneKernel",
-      "branch": "main",
-      "device": "cepheus",
-      "defconfig": "cepheus_defconfig"
+      "name": "Southwest-realme",
+      "repo": "https://github.com/UdyneO2/android_kernel_realme_southwest-4.19",
+      "branch": "beta-1.1",
+      "device": "RMX2195",
+      "defconfig": "RMX2195_defconfig"
     },
     "toolchains": [
       {
