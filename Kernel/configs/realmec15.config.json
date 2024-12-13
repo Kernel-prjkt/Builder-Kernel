@@ -9,9 +9,9 @@
     },
     "toolchains": [
       {
-        "name": "proton-clang",
-        "repo": "https://github.com/kdrag0n/proton-clang",
-        "branch": "master",
+        "name": "llvm-clang",
+        "repo": "https://android.googlesource.com/toolchain/llvm-project",
+        "branch": "llvm-r450784",
         "binaryEnv": ["./bin"]
       }
     ],
